@@ -187,7 +187,7 @@ const Products = (props) => {
   };
   // TODO: implement the restockProducts function
   const restockProducts = (url) => {
-    foFetch(url);
+    doFetch(url);
 
     let floorstock = [...products];
 
